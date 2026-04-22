@@ -20,8 +20,8 @@ img {
   margin-bottom: 20px;
 }
 
-/* Style for the recipe description */
-.description { 
+/* Style for the recipe introduction */
+.introduction { 
     text-align: center;
     text-decoration-color: darkred;
     text-emphasis: italic;
