@@ -23,9 +23,9 @@ img {
 /* Style for the recipe introduction */
 .introduction { 
     text-align: center;
-    text-decoration-color: darkred;
-    text-emphasis: italic;
-    text-size: 20px;
+  color: darkred;
+    font-style: italic;
+    font-size: 30px;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
