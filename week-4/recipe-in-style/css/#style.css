@@ -26,17 +26,17 @@ img {
   color: darkred;
     font-style: italic;
     font-size: 30px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 /* Style for the ingredients list */
 .ingredients {
   background-color: white;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .ingredients h2 {
@@ -55,7 +55,7 @@ img {
 /* Style for the instructions */
 .instructions {
   background-color: white;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
 }
 
@@ -75,9 +75,9 @@ img {
 /* Style for the notes */
 .notes {
   background-color: white;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 /* Style for the notes heading */
@@ -90,7 +90,7 @@ img {
 /* Style for the footer */
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   color: rgb(76, 25, 25);
-  margin-top: 20px;
+  margin-top: 15px;
 }   
