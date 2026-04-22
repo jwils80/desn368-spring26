@@ -9,7 +9,6 @@ h1 {
   font-size: 2.5em;
   margin-bottom: 0.5em;
   color: rgb(76, 25, 25);
-  background-color: rgb(163, 161, 161);
   text-align: center;
 }
 
@@ -23,7 +22,7 @@ img {
 
 /* Style for the ingredients list */
 .ingredients {
-  background-color: rgb(163, 161, 161);
+  background-color: lightgray;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -31,7 +30,6 @@ img {
 
 .ingredients h2 {
   color: rgb(76, 25, 25);
-  background-color: rgb(163, 161, 161);
   padding: 10px;
   margin-top: 0;
 }
@@ -44,14 +42,13 @@ img {
 
 /* Style for the instructions */
 .instructions {
-  background-color: rgb(163, 161, 161);
+  background-color: lightgray;
   padding: 20px;
   border-radius: 10px;
 }
 
 .instructions h2 {
   color: rgb(76, 25, 25);
-  background-color: rgb(163, 161, 161);
   padding: 10px;
   margin-top: 0;
 }
@@ -62,11 +59,25 @@ img {
   padding-left: 20px;
 }   
 
+/* Style for the notes */
+.notes {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Style for the notes heading */
+.notes h2 {
+  color: rgb(76, 25, 25);
+  padding: 10px;
+  margin-top: 0;
+}
+
 /* Style for the footer */
 footer {
   text-align: center;
   padding: 20px;
-  background-color: rgb(163, 161, 161);
   color: rgb(76, 25, 25);
   margin-top: 20px;
 }   
