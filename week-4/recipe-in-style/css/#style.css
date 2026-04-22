@@ -22,7 +22,7 @@ img {
 
 /* Style for the ingredients list */
 .ingredients {
-  background-color: offwhite;
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -36,14 +36,14 @@ img {
 
 .ingredients ul {
   list-style-type: square;
-  background-color: offwhite;
+  background-color: white;
   margin-left: 20px;
   padding-left: 20px;
 }
 
 /* Style for the instructions */
 .instructions {
-  background-color: offwhite;
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
 }
@@ -56,14 +56,14 @@ img {
 
 .instructions ol {
     list-style-type: decimal;
-    background-color: offwhite;
+    background-color: white;
   margin-left: 20px;
   padding-left: 20px;
 }   
 
 /* Style for the notes */
 .notes {
-  background-color: offwhite;
+  background-color: white;
   padding: 20px;
   border-radius: 10px;
   margin-top: 20px;
