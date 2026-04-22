@@ -20,6 +20,17 @@ img {
   margin-bottom: 20px;
 }
 
+/* Style for the recipe description */
+.description { 
+    text-align: center;
+    text-decoration-color: darkred;
+    text-emphasis: italic;
+    text-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
 /* Style for the ingredients list */
 .ingredients {
   background-color: white;
