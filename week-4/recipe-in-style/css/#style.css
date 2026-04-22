@@ -9,12 +9,63 @@ h1 {
   font-size: 2.5em;
   margin-bottom: 0.5em;
   color: red;
+  background-color: gray;
 }
 
-introduction {
-  font-size: 1.2em;
-  margin-bottom: 1em;
-  color: yellow;
-  background-color: black;
-  padding: 10px;
+/* Style for the recipe image */
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
+
+/* Style for the ingredients list */
+.ingredients {
+  background-color: gray;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.ingredients h2 {
+  color: red;
+  background-color: gray;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.ingredients ul {
+  list-style-type: square;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+/* Style for the instructions */
+.instructions {
+  background-color: gray;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.instructions h2 {
+  color: red;
+  background-color: gray;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.instructions ol {
+    list-style-type: decimal;
+  margin-left: 20px;
+  padding-left: 20px;
+}   
+
+/* Style for the footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: gray;
+  color: red;
+  margin-top: 20px;
+}   
