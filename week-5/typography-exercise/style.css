@@ -1,0 +1,111 @@
+body {
+  background-color: #dac8ae;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
+  background-blend-mode:overlay;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+ 
+}
+
+.book-header {
+  font-family: 'felipa', 'serif';
+  font-weight: 400;
+  font-style: normal;
+  }
+
+.genre-label {
+  font-family: 'tapestry', 'serif';
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+}
+
+.book-title {
+  font-family: 'felipa', 'serif';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 65px;
+  
+
+}
+
+.book-author {
+  font-family: 'grenze', 'serif';
+  font-size: 30px;
+  font-weight: 200;
+  font-style: normal;
+
+}
+
+.chapter-number {
+  font-family: 'grenze', 'serif';
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.chapter-title {
+  font-family: 'tapestry', 'serif';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 35px;
+    
+
+}
+
+.book-meta {
+  font-family: 'grenze', 'serif';
+  font-weight: 200;
+  font-style: normal;
+  text-align: left;
+  font-size: 30px;
+
+}
+
+.book-date {
+  font-family: 'grenze', 'serif';
+  font-weight: 200;
+  font-style: normal;
+  text-align: left;
+  font-size: 30px;
+}
+
+.book-excerpt {
+  font-family: 'grenze', 'serif';
+  font-weight: 200;
+  font-style: normal;
+  text-align: left;
+  font-size: 25px;
+}
+
+.book-excerpt p {
+
+}
+
+.typography-analysis {
+  font-family: 'tapestry', 'serif';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  text-align: left;
+
+}
+
+.typography-analysis h2 {
+  text-align: center;
+}
+
+.typography-analysis p {
+  font-family: 'grenze', 'serif';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+
+}
+
+#one {
+  font-weight: 200;
+  font-size: 25px;
+  font-style: normal;
+}
