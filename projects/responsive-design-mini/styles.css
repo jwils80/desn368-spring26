@@ -1,0 +1,182 @@
+/* 
+DESN 368 // Responsive Design Mini-Project
+
+Responsive tools allowed for this project:
+- viewport meta tag
+- fluid widths
+- max-width
+- padding
+- media queries
+- block layout
+- inline-block layout
+- percentage widths
+- box-sizing
+- basic image/media overflow protection
+
+Do not use:
+- Flexbox
+- CSS Grid
+- frameworks
+- layout libraries
+
+Goal:
+Customize this page, then make it responsive.
+
+Acceptance Criteria:
+1. No horizontal scrollbar from 320px to 1400px.
+2. The main content column has a max-width.
+3. Images or media do not overflow their containers.
+4. The cards stack on smaller screens.
+5. The cards share a row on wider screens.
+6. At least one content-driven breakpoint is used.
+7. CSS uses only the layout methods from today’s lesson.
+*/
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f7f1e7;
+  color: #2d2925;
+}
+
+.site-head {
+  padding: 28px 18px;
+  background: #6C3082;
+  color: white;
+}
+.shhh {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  max-width: 720px;
+  justify-content: center;
+  
+}
+.site-head h1,
+.site-head p {
+  width: 92%;
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+/*.site-head p {
+  text-align: justify;
+  }*/
+  
+.content {
+  width: 92%;
+  max-width: 720px;
+  margin: 26px auto;
+}
+
+h2 {
+  text-align: center;
+}
+.spot {
+  display: block;
+  width: 100%;
+  margin: 0 0 16px;
+  padding: 16px;
+  background: white;
+  border: 1px solid #dccfbd;
+}
+
+.bath {
+  display: flex;
+  width: 100%;
+  max-width: 780px;
+  min-height: 130px;
+  padding:22px 12px;
+  margin-bottom: 12px;
+  
+}
+
+.media {
+  width: 100%;
+  min-height: 130px;
+  padding: 42px 12px;
+  text-align: center;
+  background: #6C3082;
+  color: white;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+}
+
+.car {
+  display: flex;
+  width: 100%;
+  max-width: 780px;
+  min-height: 130px;
+  padding: 22px 12px;
+}
+
+.couch {
+  display: flex;
+  width: 100%;
+  max-width: 780px;
+  min-height: 130px;
+  padding: 22px 12px;
+}
+
+.site-foot {
+  padding: 22px 18px;
+  text-align: center;
+  background: #512888;
+  color: white;
+}
+
+/* TODO:
+   Add one content-driven breakpoint around 800px.
+
+   Below 800px:
+   - Each .spot card should stay full-width.
+   - Cards should stack vertically.
+
+   At 800px and wider:
+   - Use inline-block to place the cards in one row.
+   - Use percentage widths so three cards fit across.
+   - Do not use Flexbox or Grid.
+
+HINT:
+   A media query lets you change CSS only after the screen reaches a certain width.
+
+   Below 800px, the cards already stack because .spot is width: 100%.
+
+   At 800px and wider, write a media query that changes the cards from
+   full-width blocks into inline-block cards that share a row.
+*/
+
+@media (min-width: 800px) {
+  .spots {
+    /* Hint: inline-block creates small whitespace gaps.
+       One old-school fix is to set font-size: 0 on the parent. */
+    font-size: 0;
+  }
+
+  .spot {
+    /* Hint:
+       1. Change display from block to inline-block.
+       2. Use a percentage width smaller than 33.333%.
+       3. Add vertical-align: top.
+       4. Restore the font-size if you changed it on the parent.
+    */
+    display: inline-block;
+    width: 33.333%;
+    vertical-align: top;
+    font-size: 1rem;
+  }
+
+  .spot:last-child {
+    /* Hint:
+       Remove the right margin from the last card
+       so the row fits cleanly.
+    */
+    margin-right: 0;
+  }
+}
