@@ -3,4 +3,203 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    margin: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+    scroll-margin-top: 1rem;
+}
+
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    top: -300px;
+    text-align: center;
+    font-size: 1.8em;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.kinda {
+    font-family: Shadows Into Light, cursive;
+    position: relative;
+    top: -320px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: 220px;
+    color:#fff
+}
+
+h2 {
+    font-family: "monsterrat", sans-serif;
+    position: relative;
+    top: -355px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: normal;
+    color: #fff;
+    max-width: 50%;
+    margin-left: 300px;
+}
+
+.personality {
+    font-family: "Shadows Into Light", cursive;
+    position: relative;
+    top: -380px;
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.sidebar {
+    width: 300px;
+    flex-shrink: 0;
+    background-image: url('images/sidebar-background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 1rem;
+    border-radius: 8px;
+    position: sticky;
+    align-self: flex-start;
+    top: 0px;
+    border: 12px solid #45666b;
+    border-radius: 10px;
+}
+
+.sidebar img {
+    width: 78%;
+    height: auto;
+    display: block;
+    margin-left: 30px;
+}
+
+.sidebar a img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.sidebar a img:hover {
+    transform: scale(1.05);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 110px;
+}
+
+.sidebar li {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#section-1 h3 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 0;
+    color: #E3256B;
+}
+
+#section-1 p {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+#snake-1 img {
+    width: 40%;
+    height: auto;
+    transform: rotate(10deg);
+    margin-left: 60%;
+    margin-bottom: 0;
+}
+
+#snake {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    position: relative;
+    top: -100px;
+}
+
+#snake-2 img {
+    width: 40%;
+    height: auto;
+    transform: rotate(-10deg);
+    margin-left: 0;
+    margin-top: 0;
+    position: relative;
+    top: -200px;
+}
+
+#section-1 .end-note img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -640px;
+    margin-left: 500px;
+    transform: rotate(-5deg);
+}
+
+#section-1 .end-note {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#section-1 .end-note h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    position: relative;
+    top: -930px;
+    margin-left: 570px;
+    color: #E3256B;
+    transform: rotate(5deg);
+}
+
+#section-1 .end-note p {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1em;
+    position: relative;
+    top: -950px;
+    margin-left: 600px;
+    color: #333;
+    transform: rotate(5deg);
+    width: 30%;
+    line-height: 1;
+}
+
