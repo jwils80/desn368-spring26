@@ -41,7 +41,7 @@ h1 {
 }
 
 .kinda {
-    font-family: Shadows Into Light, cursive;
+    font-family: "Shadows Into Light", cursive;
     position: relative;
     top: -320px;
     text-align: center;
@@ -57,7 +57,7 @@ h2 {
     text-align: center;
     font-size: 1.6em;
     font-weight: normal;
-    color: #fff;
+    color: black;
     max-width: 50%;
     margin-left: 300px;
 }
@@ -101,6 +101,11 @@ h2 {
     margin-left: 30px;
 }
 
+.sidebar a {
+    text-decoration: none;
+    color: transparent;
+}
+
 .sidebar a img {
     transition: transform 0.3s ease;
     cursor: pointer;
@@ -118,8 +123,13 @@ h2 {
 }
 
 .sidebar li {
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#section-1 {
+    position: relative;
+    min-height: 850px;
 }
 
 #section-1 h3 {
@@ -147,12 +157,16 @@ h2 {
     margin-bottom: 0;
 }
 
+#snake-1 {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+
 #snake {
-    width: 100%;
-    height: auto;
-    margin-top: 0;
-    position: relative;
-    top: -100px;
+    position: absolute;
+    top: 300px;
+    left: 30px
 }
 
 #snake-2 img {
@@ -161,8 +175,12 @@ h2 {
     transform: rotate(-10deg);
     margin-left: 0;
     margin-top: 0;
-    position: relative;
-    top: -200px;
+}
+
+#snake-2 {
+    position: absolute;
+    top: 520px;
+    left: 40px
 }
 
 #section-1 .end-note img {
@@ -170,23 +188,19 @@ h2 {
     height: auto;
     display: block;
     margin: 0 auto;
-    position: relative;
-    top: -640px;
-    margin-left: 500px;
     transform: rotate(-5deg);
 }
 
 #section-1 .end-note {
+    position: absolute;
+    top: 520px;
+    right: 80px;
     text-align: center;
-    margin-top: 1rem;
 }
 
 #section-1 .end-note h4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3em;
-    position: relative;
-    top: -930px;
-    margin-left: 570px;
     color: #E3256B;
     transform: rotate(5deg);
 }
@@ -194,12 +208,13 @@ h2 {
 #section-1 .end-note p {
     font-family: 'Shadows Into Light', cursive;
     font-size: 1em;
-    position: relative;
-    top: -950px;
-    margin-left: 600px;
     color: #333;
     transform: rotate(5deg);
     width: 30%;
     line-height: 1;
 }
 
+section {
+    margin: 0;
+    padding: 20px 0px;
+}
