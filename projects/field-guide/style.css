@@ -85,7 +85,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 8px;
     position: sticky;
     align-self: flex-start;
@@ -123,8 +123,8 @@ h2 {
 }
 
 .sidebar li {
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: .5px;
+    margin-bottom: .5px;
 }
 
 #section-1 {
@@ -484,5 +484,46 @@ h2 {
     left: 0px
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: -160px;
+    
+}
 
+.paper-button {
+    width: 380px;
+    height: 400px;
+    background-image: url('images/file-button.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.paper-button {
+    transition: transform 0.3s ease;
+}
+
+.paper-button:hover {
+     transform: rotate(-3deg) scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2em;
+    color: #333;
+}
