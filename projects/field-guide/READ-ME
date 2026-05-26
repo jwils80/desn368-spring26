@@ -1,0 +1,74 @@
+# Barefoot and Badass: A Field Guide to Questionable Decisions and Unexpected Survival
+
+An interactive scrapbook-style field guide documenting funny, chaotic, and mildly questionable life experiences. The project combines storytelling, visual design, and responsive web development into a humorous survival guide format.
+
+## Project Goal
+
+The goal of this project was to create an interactive webpage that felt playful, personal, and visually unique while practicing HTML, CSS positioning, Flexbox, image layering, navigation, and responsive design.
+
+## Features
+
+- Interactive sidebar navigation
+- Scrollable “field guide” story sections
+- Scrapbook-inspired visuals and textures
+- Custom illustrations and themed imagery
+- Portfolio and case study buttons
+- Responsive mobile version with icon navigation
+- Separate case study reflection page
+
+## Tools Used
+
+- HTML5
+- CSS3
+- Flexbox
+- Media Queries
+- GitHub Codespaces
+- GitHub Pages
+- Figma (planning and layout design)
+- Co-pilot (to make sure the WHOLE page was working...until it erased all the things) 
+- ChatGPT to ask for help when I couldn't figure out what was breaking, and why.
+
+## Design Decisions
+
+I wanted the website to feel like a handmade scrapbook mixed with a humorous survival manual. Paper textures, corkboard elements, handwritten typography, and layered visuals were used to make the guide feel personal and chaotic rather than polished or corporate.
+
+The navigation was designed like labeled field guide tabs to reinforce the playful tone.
+
+## Technical Challenges
+
+One of the biggest challenges was positioning layered images and maintaining spacing across screen sizes. Desktop positioning worked visually but caused issues when adapting to mobile layouts.
+
+This was solved through media queries, simplifying mobile layouts, changing navigation into icons, and restructuring sections to stack vertically.
+
+## Responsive Design Strategy
+
+The desktop version uses a left sidebar navigation and layered scrapbook elements.
+
+The mobile version:
+- hides decorative desktop elements
+- replaces navigation labels with icon buttons
+- switches to a mobile title image
+- stacks content vertically for easier scrolling
+
+## What I Learned
+
+This project helped me better understand:
+- Flexbox layout
+- CSS positioning (relative vs absolute)
+- Media queries for responsive design
+- Debugging layout problems
+- How design choices affect usability
+
+## Future Improvements
+
+With more time, I would:
+- improve mobile spacing and polish
+- add animations or hover interactions
+- refine accessibility features
+- create more field guide entries
+- attach the stories on a separate page and linked to the field guide sections.
+
+## Credits
+
+Created by Jennifer Wilson  
+DESN368 – Spring 2026
