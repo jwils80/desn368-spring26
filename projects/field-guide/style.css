@@ -59,7 +59,7 @@ h1 {
     color:#fff
 }
 
-h2 {
+.field-title {
     font-family: "monsterrat", sans-serif;
     position: relative;
     top: -355px;
