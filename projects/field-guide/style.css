@@ -831,7 +831,7 @@ footer {
     transform: rotate(-3deg) scale(1.05);
 }
 
-.case-study-page h1 {
+.guide-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5em;
     font-weight: bold;
