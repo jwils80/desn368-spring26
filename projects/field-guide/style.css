@@ -537,18 +537,23 @@ footer {
     color: #333;
 }
 
+/* =========================
+   MOBILE VERSION
+========================= */
 @media (max-width: 768px) {
-
-  html,
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
 
   * {
     box-sizing: border-box;
   }
 
+  html,
+  body {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* page layout stacks */
   .container {
     display: block;
     width: 100%;
@@ -556,9 +561,20 @@ footer {
     overflow-x: hidden;
   }
 
+  .content {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  /* mobile header */
   header {
     height: auto;
     overflow: visible;
+    margin: 0;
+    padding: 0;
   }
 
   .desktop-title,
@@ -572,10 +588,12 @@ footer {
   .mobile-title {
     display: block;
     width: 100%;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
   }
 
+  /* nav becomes top icon row */
   .sidebar {
     width: 100%;
     max-width: 100%;
@@ -584,6 +602,7 @@ footer {
     border: none;
     background: transparent;
     padding: 0;
+    margin: 0;
     overflow-x: hidden;
   }
 
@@ -591,28 +610,34 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12px;
+    flex-wrap: wrap;
+    gap: 8px;
     list-style: none;
-    padding: 10px 0;
+    padding: 8px;
     margin: 0;
+    width: 100%;
+    max-width: 100%;
   }
 
   .sidebar li {
     margin: 0;
+    padding: 0;
   }
 
   .sidebar a {
     font-size: 0;
+    text-decoration: none;
   }
 
   .nav-icon,
   .sidebar img {
-    width: 45px;
-    max-width: 45px;
+    width: 42px;
+    max-width: 42px;
     height: auto;
     margin: 0;
   }
 
+  /* swap desktop labels for mobile icons */
   .snake-icon {
     content: url("images/snake-icon.png");
   }
@@ -633,13 +658,7 @@ footer {
     content: url("images/glass-icon.png");
   }
 
-  .content {
-    width: 100%;
-    max-width: 100%;
-    padding: 0 12px;
-    overflow-x: hidden;
-  }
-
+  /* sections stack cleanly */
   section,
   #section-1,
   #section-2,
@@ -647,21 +666,23 @@ footer {
   #section-4,
   #section-5,
   #lessons-learned {
-    position: static;
-    min-height: 0;
-    height: auto;
+    position: static !important;
     width: 100%;
     max-width: 100%;
-    margin: 0 0 20px 0;
-    padding: 10px 0;
+    height: auto !important;
+    min-height: auto !important;
+    margin: 0 0 18px 0;
+    padding: 8px 0;
     overflow-x: hidden;
   }
 
+  /* hide desktop extra scrapbook pieces */
   .polaroid,
   .end-note {
     display: none !important;
   }
 
+  /* reset cards so desktop positioning stops fighting mobile */
   .card,
   #snake,
   #badger,
@@ -670,18 +691,18 @@ footer {
   #glass,
   #bucky,
   #tank-1,
-  #tank-2,
-  #lessons-learned {
+  #tank-2 {
     display: block;
-    position: static;
-    top: auto;
-    left: auto;
-    right: auto;
-    bottom: auto;
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+
     width: 100%;
     max-width: 100%;
-    margin: 0 auto 16px auto;
-    transform: none;
+    margin: 0 auto 14px auto;
   }
 
   .card img,
@@ -698,28 +719,48 @@ footer {
     margin: 0 auto;
   }
 
+  /* bottom buttons */
   .button-container {
     display: flex;
     justify-content: center;
-    gap: 12px;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 6px;
+
     width: 100%;
     max-width: 100%;
-    margin: 20px auto;
+    margin: 12px 0;
+    padding: 0;
+    overflow: hidden;
   }
 
   .paper-button {
-    width: 150px;
-    height: 90px;
+    width: 120px;
+    height: 75px;
     max-width: 45%;
+
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: center;
   }
 
   footer {
+    width: 100%;
+    max-width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-size: 0.8rem;
+    overflow-wrap: break-word;
   }
 }
