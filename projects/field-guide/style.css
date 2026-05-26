@@ -764,3 +764,72 @@ footer {
     overflow-wrap: break-word;
   }
 }
+
+.case-study-page {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+#case-study-title img {
+  width: 10px;
+  height: 10px;
+    display: block; 
+    margin: 0 auto;
+}   
+
+#case-study-mobile-title img {
+  width: 10px;
+  height: 10px;
+    display: block; 
+    margin: 0 auto;
+}
+
+#case-study-title {
+  width: 30%;
+  max-width: 40%;
+  height: auto;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.case-study-page h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    top: -550px;
+    left: 10px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #39A78D;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+p {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    padding: 0 20px;
+}
