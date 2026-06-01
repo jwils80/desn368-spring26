@@ -20,7 +20,7 @@
     <nav id="nav-bar">
       <a href="#about" class="nav-link">About</a>
       <a href="#survival-box" class="nav-link">Survival Box</a>
-      <a href="#features" class="nav-link">Symptoms</a>
+      <a href="#symptoms" class="nav-link">Symptoms</a>
       <a href="#community" class="nav-link">Community</a>
       <a href="#faq" class="nav-link">FAQ</a>
     </nav>
@@ -30,9 +30,9 @@
 <main>
 
   <section id="hero">
-    <div class="hero-bg"></div>
+    <div class="hero-image" role="img" aria-label="Cougar Puberty hero illustration"></div>
     <div class="hero-content">
-      <p class="hero-welcome">Welcome to Cougar Puberty&trade;</p>
+      <p class="hero-welcome">Welcome to Cougar Puberty&trade;</p> 
       <h1>Hot flashes. Brain fog. Zero gatekeeping.</h1>
       <p class="hero-sub">Hot flashes, mystery rage, brain fog, insomnia, and wondering why nobody talks about this? Welcome. You&rsquo;re not alone.</p>
       <div class="hero-ctas">
@@ -45,6 +45,7 @@
   </section>
 
   <section id="about">
+    <!-- <div class="meno-rip" role="img" aria-label="Torn paper decoration"></div> -->
     <div class="container">
       <div class="about-layout">
         <div class="about-text">
@@ -52,7 +53,7 @@
           <p class="about-quote">&ldquo;Mildly feral. Mostly exhausted.&rdquo;</p>
         </div>
         <div class="about-word-cloud">
-          <div class="cloud-circle"></div>
+          <img src="images/meno-word-cloud.png" alt="Word cloud of menopause symptoms" class="cloud-circle-img">
         </div>
       </div>
     </div>
@@ -63,19 +64,19 @@
       <h2>Why Does Nobody Talk About This?</h2>
       <p class="section-body">Hot flashes. Brain fog. Weird rage. Insomnia. Forgetting words mid-sentence. Menopause can feel confusing, isolating, and honestly a little overwhelming. Most women are left piecing together answers while wondering if what they&rsquo;re experiencing is normal. It is. And we&rsquo;re done gatekeeping the conversation.</p>
       <div class="sticky-notes">
-        <div class="sticky sticky-orange">
+        <div class="sticky sticky-orange" >
           <span class="sticky-emoji">🔥🥵</span>
           <span class="sticky-text">Hot Flashes like your own personal volcano</span>
         </div>
-        <div class="sticky sticky-yellow">
+        <div class="sticky sticky-yellow" >
           <span class="sticky-emoji">🧠😶‍🌫️</span>
           <span class="sticky-text">Brain Fog &lsquo;cause you didn&rsquo;t need to remember anything anyway&hellip;</span>
         </div>
-        <div class="sticky sticky-blue">
+        <div class="sticky sticky-blue" >
           <span class="sticky-emoji">🤬😤</span>
           <span class="sticky-text">Mystery Rage does he seriously have to breathe so loudly?!</span>
         </div>
-        <div class="sticky sticky-red">
+        <div class="sticky sticky-red" >
           <span class="sticky-emoji">🥱😳</span>
           <span class="sticky-text">Exhausted and awake at 3 am. every.single.day</span>
         </div>
@@ -84,52 +85,66 @@
     </div>
   </section>
 
-  <section id="media">
-    <div class="container">
+  <section id="media" class="section-plum">
+  <div class="container">
+
+    <div class="media-block">
       <h2 class="video-heading">Cougar Puberty Survival Box</h2>
+
       <div class="video-wrapper">
-        <iframe id="video" width="960" height="540" src="https://www.youtube.com/embed/1W5CcTFpF5E" title="Cougar Puberty Survival Box unboxing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <video controls>
+          <source src="video/unboxing.mp4" type="video/mp4">
+        </video>
       </div>
-      <p class="video-copy">Survival box includes all the things to make this craziness a little more bearable. Only thing needed, is your drink of choice.</p>
+
+      <p class="video-copy">
+        Survival box includes all the things to make this craziness a little more bearable. Only thing needed is your drink of choice.
+      </p>
+
       <a href="#survival-box" class="btn btn-primary">Get the survival box</a>
     </div>
-  </section>
 
-  <section id="community-join">
-    <div class="container">
-      <div class="join-layout">
-        <div class="join-visual"></div>
-        <div class="join-text">
-          <h2>Not ready for a survival box right now?</h2>
-          <p>That&rsquo;s cool. We have a whole community in the same boat as you, and we&rsquo;re all ready to share. No more gatekeeping. We&rsquo;ll make it through, together.</p>
-          <a href="#community" class="btn btn-primary">Join the Chaos</a>
-        </div>
+    <div class="media-block">
+      <h2 class="video-heading">Not ready for a survival box right now?</h2>
+
+      <div class="video-wrapper">
+        <video controls>
+          <source src="video/meno-club.mp4" type="video/mp4">
+        </video>
       </div>
-    </div>
-  </section>
 
-  <section id="features">
+      <p class="video-copy">
+        That’s cool. We have a whole community in the same boat as you, and we’re all ready to share. No more gatekeeping. We’ll make it through, together.
+      </p>
+
+      <a href="#community" class="btn btn-primary">Join the Chaos</a>
+    </div>
+
+  </div>
+</section>
+
+  <section id="features" class="section-plum">
     <div class="container">
       <div class="features-intro">
-        <div class="fan-decoration"></div>
+        <div class="fan-decoration" style="background: url(images/full-meno-fan.png) center/contain no-repeat;"></div>
         <p class="features-lede">Practical relief, emotional support, honest resources, and tiny comforts for surviving Cougar Puberty&trade;.</p>
         <h2>Choose Your<br>Survival Strategy</h2>
       </div>
       <div class="features-grid">
         <article class="feature-card">
-          <div class="card-image marketplace-graphic"></div>
+          <div class="card-image" style="background: url(images/marketplace-graphic.png) center/cover no-repeat;"></div>
           <h3>Mildly Feral Marketplace&trade;</h3>
           <p>Because sometimes relief comes with stickers.</p>
           <a href="#" class="btn btn-primary">I Need This</a>
         </article>
-        <article class="feature-card">
-          <div class="card-image box-graphic"></div>
+        <article id="survival-box" class="feature-card">
+          <div class="card-image" style="background: url(images/box-image.png) center/cover no-repeat;"></div>
           <h3>The Mildly Feral But Still Surviving Box&trade;</h3>
           <p>Practical relief for hormonally complicated times.</p>
           <a href="#" class="btn btn-primary">Fine. I&rsquo;ll Take the Box.</a>
         </article>
         <article class="feature-card">
-          <div class="card-image community-graphic"></div>
+          <div class="card-image" style="background: url(images/me-too-image.png) center/cover no-repeat;"></div>
           <h3>Yeah&hellip;Me Too&trade;</h3>
           <p>No gatekeeping. No judgment. Just &ldquo;yeah&hellip;me too.&rdquo;</p>
           <a href="#" class="btn btn-primary">Join the Chaos</a>
@@ -138,7 +153,7 @@
     </div>
   </section>
 
-  <section id="data">
+  <section id="data" class="section-cream">
     <div class="container">
       <h2>Symptoms &amp; Survival Guide</h2>
       <p class="section-body">Real talk about what&rsquo;s happening and how to get through it.</p>
@@ -183,12 +198,12 @@
     </div>
   </section>
 
-  <section id="community">
+  <section id="community" class="section-cream">
     <div class="container">
       <div class="community-stickers">
-        <span class="sticker sticker-feral"></span>
-        <span class="sticker sticker-hotflash"></span>
-        <span class="sticker sticker-unavailable"></span>
+        <img src="images/sticker-feral.png" alt="Mildly feral sticker" class="sticker sticker-feral">
+        <img src="images/sticker-hotflash.png" alt="Hot flash sticker" class="sticker sticker-hotflash">
+        <img src="images/sticker-unavailable.png" alt="Unavailable sticker" class="sticker sticker-unavailable">
       </div>
       <h2>Nobody Warned Us. We&rsquo;re Warning Each Other.</h2>
       <p class="section-body">Whether you need relief, community, stickers, or just someone to say &ldquo;same,&rdquo; we&rsquo;re here for the hormonally complicated days.</p>
@@ -196,7 +211,7 @@
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="section-cream">
     <div class="container">
       <h2>Get In Touch</h2>
       <p class="section-body">Questions, vent sessions, or just want to say &ldquo;same.&rdquo; We&rsquo;re here for it.</p>
@@ -231,7 +246,7 @@
     </div>
     <div class="footer-links">
       <a href="#about">About</a>
-      <a href="#features">Symptoms</a>
+      <a href="#symptoms">Symptoms</a>
       <a href="#survival-box">Survival Box</a>
       <a href="#community">Community</a>
       <a href="#contact">Contact Us</a>
