@@ -473,10 +473,10 @@ text-align: center;
 
 .fan-decoration {
   position: absolute;
-  left: -200px;
-  top: -120px;
-  width: 700px;
-  height: 700px;
+  left: -220px;
+  top: -140px;
+  width: 780px;
+  height: 780px;
   border-radius: 50%;
   z-index: 0;
 }
@@ -912,8 +912,8 @@ footer {
     position: relative;
     left: auto;
     top: auto;
-    width: min(82vw, 360px);
-    height: min(82vw, 360px);
+    width: min(86vw, 400px);
+    height: min(86vw, 400px);
     margin: 0 auto;
   }
 
