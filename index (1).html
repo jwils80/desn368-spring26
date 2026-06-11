@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jen Wilson — Portfolio</title>
+
+    <!-- Google Fonts: Moon Dance (handwriting) + Montserrat (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Moon+Dance&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Decorative background textures (coffee stains, paper texture overlays) -->
+    <div class="bg-decoration stain-hero">
+        <img src="images/coffee-ring.png" alt="" aria-hidden="true">
+    </div>
+    <div class="bg-decoration stain-top-right">
+        <img src="images/coffee-drop-1.png" alt="" aria-hidden="true">
+    </div>
+    <div class="bg-decoration stain-mid-right">
+        <img src="images/coffee-drop-2.png" alt="" aria-hidden="true">
+    </div>
+    <div class="bg-decoration stain-bottom-left">
+        <img src="images/stain-2.png" alt="" aria-hidden="true">
+    </div>
+
+    <!-- ==========================================
+         HEADER / NAVIGATION
+         ========================================== -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo2.png" alt="Jen Wilson logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#projects">Creations</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ==========================================
+             HERO SECTION
+             ========================================== -->
+        <section id="hero">
+            <div class="hero-logo">
+                <img src="images/hero-logo.png" alt="Decorative logo mark for Jen Wilson">
+            </div>
+            <p class="hero-tagline">Proof That the Chaos Is Organized</p>
+            <h1 class="hero-name">Jen Wilson</h1>
+            <p class="hero-intro">
+                Designer. Maker. Problem Solver. Building thoughtful designs through creativity,
+                craftsmanship, technology, and a stubborn determination to figure things out.
+            </p>
+            <p class="hero-sub">The organized chaos comes free of charge.</p>
+            <a href="#projects" class="btn">See My Work</a>
+        </section>
+
+        <!-- ==========================================
+             FEATURED PROJECTS SECTION
+             ========================================== -->
+        <section id="projects">
+            <h2 class="projects-heading">The Proof...</h2>
+
+            <div class="project-grid">
+
+                <!-- Recipe Project Card -->
+                <article class="project-card teal">
+                   
+                    <div class="card-body">
+                        <h3 class="card-title">Made From Scratch</h3>
+                        <p class="card-sub">HTML &bull; CSS &bull; Foundations</p>
+                        <a href="https://jwils80.github.io/desn368-spring26/week-2/recipe.html" target="_blank" rel="noopener noreferrer">
+                            <img
+                                src="images/recipe.png"
+                                alt="Screenshot of the Recipe Project website showing a recipe page layout"
+                                class="card-image"
+                            >
+                        </a>
+                        <p class="card-desc">
+                            Learning the fundamentals of web development through semantic HTML,
+                            structure, and styling.
+                        </p>
+                        <a href="https://jwils80.github.io/desn368-spring26/week-2/recipe.html" class="card-btn">Take a Peek</a>
+                    </div>
+                </article>
+
+                <!-- Tribute Project Card -->
+                <article class="project-card plum">
+                    
+                    <div class="card-body">
+                        <h3 class="card-title">Tribute to Lucille Ball</h3>
+                        <p class="card-sub">Responsive Web Design &bull; Development</p>
+                        <a href="https://jwils80.github.io/desn368-spring26/projects/tribute-page/index.html" target="_blank" rel="noopener noreferrer">
+                        <img
+                        src="images/tribute-page.png"
+                        alt="Screenshot of the Tribute Site honoring Lucille Ball"
+                        class="card-image"
+                    ></a>
+                        <p class="card-desc">
+                            A responsive website honoring Lucille Ball, built while learning that
+                            what works perfectly in a mockup sometimes has other plans in CSS.
+                        </p>
+                        <a href="https://jwils80.github.io/desn368-spring26/projects/tribute-page/index.html" class="card-btn">Take a Peek</a>
+                    </div>
+                </article>
+
+                <!-- Field Guide Project Card -->
+                <article class="project-card sage">
+                    
+                    <div class="card-body">
+                        <h3 class="card-title">Field Guide to the Unexpected</h3>
+                        <p class="card-sub">Web Design &bull; Storytelling &bull; Development</p>
+                       <a href="https://jwils80.github.io/desn368-spring26/projects/field-guide/index.html" target="_blank" rel="noopener noreferrer">
+                        <img
+                        src="images/field-guide.png"
+                        alt="Screenshot of the Field Guide to the Unexpected project"
+                        class="card-image"
+                    ></a>
+                        <p class="card-desc">
+                            A collection of unbelievable-but-true stories, wrapped in a design that
+                            feels part field guide, part digital scrapbook.
+                        </p>
+                        <a href="https://jwils80.github.io/desn368-spring26/projects/field-guide/index.html" class="card-btn">Take a Peek</a>
+                    </div>
+                </article>
+
+                <!-- Product Landing Page Card -->
+                <article class="project-card orange">
+                    
+                    <div class="card-body">
+                        <h3 class="card-title">Mildly Feral&trade;</h3>
+                        <p class="card-sub">Branding &bull; UI Design &bull; Product Concept</p>
+                        <a href="https://jwils80.github.io/desn368-spring26/projects/landing-page/p4/index.html" target="_blank" rel="noopener noreferrer">
+                        <img
+                        src="images/mildly-feral.png"
+                        alt="Screenshot of the Mildly Feral product landing page concept"
+                        class="card-image"
+                    ></a>
+                        <p class="card-desc">
+                            A menopause survival concept built around humor, community, and the
+                            comforting realization that you're not actually losing your mind.
+                        </p>
+                        <a href="https://jwils80.github.io/desn368-spring26/projects/landing-page/p4/index.html" class="card-btn">Take a Peek</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ==========================================
+             ABOUT SECTION
+             ========================================== -->
+        <section id="about">
+            <h2 class="about-heading">The Human Behind the Coffee Stains...</h2>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <img
+                        src="images/profile.png"
+                        alt="Portrait of Jen Wilson, the designer"
+                    >
+                </div>
+                <div class="about-text">
+                    <p>
+                        Hi, I'm Jen. </p>
+                        
+                        <p>I'm a designer, maker, and lifelong problem solver currently
+                        studying design while balancing family life, work, and a suspicious number
+                        of creative projects.</p>
+                    
+                        <p>My background in sewing, crafting, and building things
+                        by hand has shaped the way I approach design: thoughtfully, practically, and
+                        with a focus on creating experiences that are both useful and memorable.
+                    </p>
+                   
+                    <p class="sign-off">
+                        When I'm not designing, I'm probably making something, learning something,
+                        or convincing myself I definitely need to start one more project.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             REFLECTION PREVIEW SECTION
+             ========================================== -->
+        <section id="reflection-preview">
+            <h2 class="reflection-heading">Reflection</h2>
+            <p class="reflection-preview-text">
+               Curious how this project came together? Take a peek behind the scenes at the ideas, challenges, lessons learned, and the occasional creative detour.
+
+            </p>
+            <a href="reflection.html" class="btn">Read the Reflection</a>
+        </section>
+
+    </main>
+
+    <!-- ==========================================
+         FOOTER
+         ========================================== -->
+    <footer>
+        <div class="footer-links">
+            <!-- Replace with your actual GitHub URL -->
+            <a href="https://jwils80.github.io/desn368-spring26/" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <!-- Replace with your actual email or contact link -->
+            <a href="mailto:Chaos_Momma@outlook.com">Contact</a>
+        </div>
+        <p>
+            Fueled by caffeine, curiosity, and occasional chaos. &copy; Jennifer Wilson 2026
+        </p>
+        <p>
+            <small>AI disclosure: Portions of this site were generated with assistance from AI tools, then customized and refined by hand.</small>
+        </p>
+    </footer>
+
+</body>
+</html>

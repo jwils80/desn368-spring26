@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflection — Jen Wilson Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Moon+Dance&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Decorative background textures (coffee stains, paper texture overlays) -->
+    <div class="bg-decoration stain-hero">
+        <img src="images/coffee-ring.png" alt="" aria-hidden="true">
+    </div>
+    <div class="bg-decoration stain-top-right">
+        <img src="images/coffee-drop-1.png" alt="" aria-hidden="true">
+    </div>
+    <div class="bg-decoration stain-mid-right">
+        <img src="images/coffee-drop-2.png" alt="" aria-hidden="true">
+    </div>
+    <div class="bg-decoration stain-bottom-left">
+        <img src="images/stain-2.png" alt="" aria-hidden="true">
+    </div>
+
+    <!-- ==========================================
+         HEADER / NAVIGATION
+         ========================================== -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/nav-logo.png" alt="Jen Wilson logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html#hero">Home</a></li>
+                <li><a href="index.html#projects">Creations</a></li>
+                <li><a href="index.html#about">About Me</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="reflection-page">
+
+        <h1>Reflection</h1>
+
+        <h2>The Vision</h2>
+        <p>
+            This portfolio was designed to feel like a well-loved sketchbook — warm, textured, and
+            personal. I wanted the visual identity to reflect who I am: a designer, sewist, Navy
+            veteran, mom, and creative problem-solver. The coffee stains, handwritten headings, and
+            warm parchment tones aren't just decoration — they're an extension of my process.
+        </p>
+
+        <h2>Design Choices</h2>
+        <p>
+            I chose <strong>Moon Dance</strong> for headings because it has the hand-lettered feel
+            I wanted — as if each title were written with a fountain pen on a page of my notebook.
+            <strong>Montserrat</strong> provides a clean, readable counterpoint for body text,
+            keeping the information clear and accessible.
+        </p>
+        <p>
+            The color palette draws from warm, earthy tones: cream backgrounds, espresso brown
+            navigation and footer, and muted accent colors (teal, plum, sage, burnt orange) that
+            give each project card its own personality without overwhelming the overall layout.
+        </p>
+
+        <h2>Challenges</h2>
+        <p>
+            One of the biggest challenges was reconciling what I imagined in my head with what
+            actually worked in the browser. The mockup always looks perfect — but CSS has a way
+            of reminding you that the web is a flexible, unpredictable medium. Learning to embrace
+            that misalignment rather than fight it was a valuable lesson.
+        </p>
+        <p>
+            Making the site responsive was another hurdle. What looks great on a 1440px screen
+            needs to be rethought for a 375px phone. I used CSS Grid for the project cards (which
+            collapse to single-column on mobile) and Flexbox for the about section and navigation
+            to keep things flexible.
+        </p>
+
+        <h2>What I Learned</h2>
+        <p>
+            This project reinforced the value of starting with a strong foundation. Semantic HTML,
+            organized CSS with variables, and a clear visual hierarchy made the build process
+            smoother and the end result more maintainable. I also gained a deeper appreciation for
+            the little details — hover states, transitions, link styling — that make a site feel
+            polished and intentional.
+        </p>
+
+        <h2>Final Thoughts</h2>
+        <p>
+            This portfolio is a snapshot of where I am right now as a designer. It's not perfect,
+            but it's mine — built by hand, fueled by caffeine, and held together with a healthy
+            dose of organized chaos.
+        </p>
+
+        <a href="index.html" class="back-link">&larr; Back to Portfolio</a>
+
+    </main>
+
+    <!-- ==========================================
+         FOOTER
+         ========================================== -->
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="mailto:jwilson86@ewu.edu">Contact</a>
+        </div>
+        <p>
+            Fueled by caffeine, curiosity, and occasional chaos. &copy; Jennifer Wilson 2026
+        </p>
+        <p>
+            <small>AI disclosure: Portions of this site were generated with assistance from AI tools, then customized and refined by hand.</small>
+        </p>
+    </footer>
+
+</body>
+</html>
