@@ -107,6 +107,7 @@ header {
 nav {
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
     background-color: var(--color-espresso);
     padding: 0 var(--space-xl);
